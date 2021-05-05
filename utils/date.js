@@ -1,7 +1,7 @@
 const date = () => {
     let todaysDate = new Date();
     return {
-        "dayOfTheWeek":daysOfTheWeek[todaysDate.getDay()],
+        "dayOfTheWeek": daysOfTheWeek[todaysDate.getDay()],
         "day": todaysDate.getDate(),
         "month": month[todaysDate.getMonth()],
         "year": todaysDate.getFullYear()
