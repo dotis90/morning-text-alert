@@ -1,6 +1,6 @@
 const axios = require('axios');
-const config = require('./config');
 const twilio = require('twilio');
+const config = require('./config');
 
 (async () => {
 
