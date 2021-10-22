@@ -7,10 +7,10 @@ const config = require('./config');
     // Date
 
     const todaysDate = new Date();
-    var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
     const todaysDateString = todaysDate.toLocaleDateString("en-US", options)
 
-    let message = `Good morning!\n\nToday is ${todaysDateString}\n\nHere's the top stories this morning:\n\n`
+    let message = `Good morning!\n\nToday is ${todaysDateString}\n\nThis morning's top stories:\n\n`
 
     // News
 
